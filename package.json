@@ -1,0 +1,12 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "Practicing DSA",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./index.js "
+  },
+  "author": "theonly1me",
+  "license": "ISC"
+}

@@ -1,6 +1,7 @@
 import http from 'http';
 // import ArrayClass from './ds/Array.js';
-import reverseString from './algo/arrays/reverseString.js';
+// import reverseString from './algo/arrays/reverseString.js';
+import mergeSortedArrays from './algo/arrays/mergeSortedArrays.js';
 
 const port = 8080;
 

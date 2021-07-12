@@ -1,3 +1,5 @@
+'use strict';
+
 const reverseString = sentence => {
   return sentence.split('').reduce((acc, cur) => cur + acc, '');
 };

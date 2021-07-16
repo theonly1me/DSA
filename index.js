@@ -4,6 +4,9 @@ import http from 'http';
 // import ArrayClass from './ds/Array.js';
 // import reverseString from './algo/arrays/reverseString.js';
 // import mergeSortedArrays from './algo/arrays/mergeSortedArrays.js';
+// import LinkedList from './ds/LinkedList.js';
+// import DoublyLinkedList from './ds/DoublyLinkedList.js';
+// import validMountainArray from './algo/arrays/LC_validMountainArray.js';
 
 const port = 8080;
 

@@ -68,7 +68,7 @@ class LinkedList {
     if (index === 0) index = 1;
     let current = 1;
     let currentNode = this.head;
-    while (current !== index) {
+    while (current !== index && currentNode.next) {
       currentNode = currentNode.next;
     }
     return currentNode ? currentNode : null;
@@ -77,7 +77,8 @@ class LinkedList {
   delete(index) {
     const node = this.traverseToIndex(index - 1);
     let unwanted = node.next;
-    node.next = unwanted.next;
+    node.next = (unwanted && unwanted.next) || null;
+    this.length--;
   }
 
   // reverse(){

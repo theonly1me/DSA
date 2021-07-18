@@ -7,6 +7,7 @@ import http from 'http';
 // import LinkedList from './ds/LinkedList.js';
 // import DoublyLinkedList from './ds/DoublyLinkedList.js';
 // import validMountainArray from './algo/arrays/LC_validMountainArray.js';
+// import BinarySearchTree from './ds/BinarySearchTree.js';
 
 const port = 8080;
 
